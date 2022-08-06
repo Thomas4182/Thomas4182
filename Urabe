@@ -1,0 +1,21 @@
+Bill = float(input("Insert your bill"))
+
+
+if Bill < 1000:
+    Urabe = 0
+    print("ไม่ลดให้หรอกนะ🖤")
+
+elif Bill <= 10000:
+    Urabe = 10 / 100 * Bill
+    print("ลดให้", Urabe, "บาทนะ✔️")
+    
+elif Bill <= 50000:
+    Urabe = 15 / 100 * Bill
+    print("ลดให้", Urabe, "บาทนะ✔️")
+
+elif Bill < 100000000000000000000000:
+    Urabe = 20 / 100 * Bill
+    print("ลดให้", Urabe, "บาทนะ✔️")
+
+Serika = Bill - Urabe
+print("ทั้งหมด", Serika, "บาทจะ❤️️")
