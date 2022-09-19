@@ -9,14 +9,20 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div id="AroH1">
+
+<!-- Add id here -->
+<body id="Arobody">
+
+    <div >
         <br>
         <strong>Hello Arona desu</strong>
         <h5> Yoroshigu </h5>
     </div>
+
+    <!-- This is buttons -->
     <button id="AroButton" class="Buttondesu">Dark</button>
     <button id="MisakiButton" class="Button">white</button>
+
     <script src="script.js"></script>
 
 </body>
@@ -24,48 +30,44 @@
 
 🟦css
 div {
-    width: 756px;
-    height: 700px;
-    padding: 0px;
-    border: 0px;
     text-align: center;
 }
 
 .Buttondesu {
     position: fixed;
     bottom: 3.5px;
-    right: 3.5px;
+    right: 50.9px;
     font-size: 12px;
 }
 
 .Button {
     position: fixed;
     bottom: 3.5px;
-    right: 50px;
+    right: 3.5px;
     font-size: 12px;
 }
 
 🟨js
 document.querySelector("#AroButton").onclick = function(){
 
-    const div = document.querySelector("#AroH1");
+    const body = document.querySelector("#Arobody");
     
 
-    console.log(div.style);
+    console.log(body.style);
 
-    div.style.color = "white";
-    div.style.backgroundColor = "black";
+    body.style.color = "white";
+    body.style.backgroundColor = "black";
     
 }
 
 document.querySelector("#MisakiButton").onclick = function(){
 
-    const div = document.querySelector("#AroH1");
+    const body = document.querySelector("#Arobody");
     
 
-    console.log(div.style);
+    console.log(body.style);
 
-    div.style.color = "black";
-    div.style.backgroundColor = "white";
+    body.style.color = "black";
+    body.style.backgroundColor = "white";
     
 }
