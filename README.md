@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @Thomas4182
-- 👀 I’m interested in Coding. 
+- 👀 I’m interested in Code. 
 - 🌱 I’m currently learning about web page.
 
 <!---
