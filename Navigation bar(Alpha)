@@ -1,0 +1,53 @@
+🟧html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+            <a href="https://let-s-exercise.web.app/" class="abc"><h5 class="text-white h4">เว็บของจริง</h5></a>
+            <br>
+            <span class="text-muted">Len gay yisib si chawmong.</span>
+        </div>
+    </div>
+    
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <div class="yami">
+                <img src="img/LOGOOO (2).png" alt="" width="30" height="40">
+                เเนะนำสถานที่ออกกำลังกาย เเม่สาย
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+</body>
+</html>
+
+🟦css
+.abc {
+    text-align: left;
+    display: inline-block;
+}
+
+.yami {
+    text-align: left;
+    background-color: #212529;
+    color: azure;
+    position: relative;
+    top: 0;
+}
