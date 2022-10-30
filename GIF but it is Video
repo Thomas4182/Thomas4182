@@ -1,0 +1,58 @@
+🟧html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remi play guitar</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!--  don't care this  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!--  don't care this  -->
+    <h1 class="abc" id="gradient-text">Hey mister do you want to play a guitar?</h1>
+
+    <div>
+        <video autoplay loop muted plays-inline class="Remilia">
+            <source src="RemiliaPlayguitar.mp4" type="video/mp4">
+        </video>
+    <div>
+
+</body>
+</html>
+
+🟦css
+/* don't care this but you want to play you can*/
+div{
+    position: absolute;
+    right: 500px;
+    left: 500px;
+}
+
+/* don't care this but you want to play you can*/
+.Remilia {
+    position: relative;
+    top: 80px;
+    border-radius: 1.5em;
+}
+
+/* don't care this but you want to play you can*/
+.abc {
+    font-family: 'Fuzzy Bubbles';
+    text-align: center;
+ }   
+
+/* don't care this but you want to play you can*/
+#gradient-text {
+    background-image: linear-gradient(180deg, red, black);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
