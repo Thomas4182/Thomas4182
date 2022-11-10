@@ -1,0 +1,46 @@
+🟧html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RealLupo</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="BIGBAR">
+    Lupo
+    </div>
+    
+</body>
+</html>
+
+🟦css
+/* for margin to 0 */
+body {
+    margin: 0;
+}
+
+.BIGBAR {
+    position: static;
+
+    /* About size and color of text */
+    font-size: 120px;
+    color: azure;
+    text-shadow: 3px 3px rgb(26, 4, 4);
+
+    /* Background picture */
+    background-image: url(Lupopic-real1.jpg);
+    background-size: cover;
+    background-blend-mode:multiply ;
+
+    /* Position of text */
+    text-align: center;
+    height: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
